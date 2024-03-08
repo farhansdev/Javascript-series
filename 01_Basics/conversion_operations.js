@@ -24,4 +24,32 @@ let isLoggedIn = 1; // change in to true
 // let isLoggedIn = "abc"; // true
 
 let changeInBoolean = Boolean(isLoggedIn);
-console.log(changeInBoolean)
+// console.log(changeInBoolean)
+
+// ***********************************Operations*******************************************
+
+let value = 3;
+let negValue = -value;
+console.log(negValue) // -3
+
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1 = 2;
+let str2 = 2;
+let str3 = str1 + str2;
+console.log(str3) // 4
+
+console.log('1' + 2) // 12 
+console.log(1 + '2') // 12 
+console.log('1' + 2 + 2) // 122 
+console.log(1 + 2 + '2') // 32  // string value number ko apny sath add kr legi or agr 2 valye nmber hn ak string to nmbr value operate hony k baad string k sath add ho jayengi e.g 32, 1+2 = 3 hwa then + with string value 32
+
+let gameCounter = 100;
+// gameCounter++;
+++gameCounter;
+console.log(gameCounter)
